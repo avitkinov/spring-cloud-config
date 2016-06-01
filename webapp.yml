@@ -8,7 +8,9 @@ zuul:
     route:
       joke-service: /joke
       image-service: /image
-
+  routes:
+    image-service: /image/**
+    joke-service: /joke/**
 
 
 eureka:
