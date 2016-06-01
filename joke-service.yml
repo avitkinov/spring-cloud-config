@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:mysql://sql8.freemysqlhosting.net:3306/sql8121440
+    url: '{cipher}d80fb12e4e5effeaf906e769856be933efaadf6aab1932f1a2dd47c3cee142bb282b18649b6cdfaea0faeea4ef014e3c849333a043411fed48157a4b05f143359e90d5b6e96e022073b32f9bc0ea0e47'
     username: '{cipher}6919c4829243582a585e5d8d863f8f254e0c1e73ca5fca42747117d5a0af56ef'
     password: '{cipher}b6ed06398d99e15f3afc2636f9fcd8d1f87ca3e41ae2cf4a08265c00d485cd1b'
     driver-class-name: com.mysql.jdbc.Driver
