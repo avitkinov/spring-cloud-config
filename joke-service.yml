@@ -3,14 +3,14 @@ server:
 
 spring:
   datasource:
-    url: '{cipher}d80fb12e4e5effeaf906e769856be933efaadf6aab1932f1a2dd47c3cee142bb282b18649b6cdfaea0faeea4ef014e3c849333a043411fed48157a4b05f143359e90d5b6e96e022073b32f9bc0ea0e47'
-    username: '{cipher}6919c4829243582a585e5d8d863f8f254e0c1e73ca5fca42747117d5a0af56ef'
-    password: '{cipher}b6ed06398d99e15f3afc2636f9fcd8d1f87ca3e41ae2cf4a08265c00d485cd1b'
-    driver-class-name: com.mysql.jdbc.Driver
-    platform: mysql
+    url: '{cipher}fe2ec9dc7b36c571bedb608a9cb9dbf58369ae36b46444be6fe830b2e47055c6a7b56d0a6ab40690cf915df7f7b1066166e6609f178b315a97e0aed30175def4'
+    username: '{cipher}b4dd583f045424c93f62f44bb9bd9f0489198378b5491c08f67edc6bc4786d3e'
+    password: '{cipher}b4dd583f045424c93f62f44bb9bd9f0489198378b5491c08f67edc6bc4786d3e'
+    driver-class-name: org.postgresql.Driver
+    platform: postgresql
   jpa:
-    database: MYSQL
-    database-platform: org.hibernate.dialect.MySQLDialect
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
     hibernate:
       ddl-auto: create
